@@ -1,0 +1,182 @@
+﻿body {
+    font-size: 16px;
+    height:100%;
+    background-color:darkkhaki
+}
+
+#MainContainer {
+    float: left;
+    height: 350px;
+    width: 70%;
+
+}
+
+#SteerContainer {
+    float: left;
+    height: 346px;
+    width: 28%;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+/*klasy dla maina gora - srodek - dol*/
+.Main_Upper_Square {
+    height: 113px;
+    border: 1px solid black;
+    
+}
+
+
+.Main_Middle_Square {
+    height: 117px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.Main_Down_Square {
+    height: 113px;
+    border: 1px solid black;
+   
+}
+
+
+/*Klasy dla kwadratow w srodkowym divie lewo prawo srodek*/
+.Main_Middle_Middle_Square {
+    height: 118px;
+    float: left;
+    width: 33%;
+    
+}
+
+.Main_Middle_Right_Square {
+    height: 116px;
+    float: left;
+    width: 33%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+
+.Main_Middle_Left_Square {
+
+    height: 118px;
+    float: left;
+    width: 33%;
+   
+}
+
+.showimg50 {
+    
+   
+    height: 50px;
+    width: 50px;
+}
+
+.showimg75 {
+    
+    
+    height: 75px;
+    width: 75px;
+}
+
+.showimg100 {
+    height: 100px;
+    width: 100px;
+}
+
+#ImageButton1, #ImageButton5 {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#ImageButton2, #ImageButton3, #ImageButton4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#TextBox1, #TextBox2, #TextBox3,#TextBox4 {
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+#RadioButtonList1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#Label1, #Label2,#Label3 {
+    display: block;
+    margin: auto auto auto 0px;
+    text-align: center;
+}
+
+.Visibility {
+    display: none;
+}
+
+
+.logged_label {
+    color: red;
+    font-weight: bold;
+}
+
+
+.textbox {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+#MZ_LoginPanel {
+    background-color: aquamarine;
+    
+}
+
+
+#MZ_UserId {
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+#MZ_UserInformation {
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+#MZ_Loginutton {
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    margin: auto auto auto 99px;
+    text-align: center;
+}
+
+#DataDown {
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+#MZ_LoggedInSingleUser {
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
